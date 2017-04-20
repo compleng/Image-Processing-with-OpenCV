@@ -50,8 +50,7 @@ def thresholdWithAvg(im):
  maxValue = 255
  th,dst = cv2.threshold(img, thresh, maxValue, cv2.THRESH_BINARY);
  cv2.imwrite( "output/threshold_with_average.jpg", dst )
- #val=averageIntensity(im)
- #thresholdImage(im,val)
+ 
 #-------------------------------------------------------------------------
 def generateHistogram(im):
  height=im.shape[0]
